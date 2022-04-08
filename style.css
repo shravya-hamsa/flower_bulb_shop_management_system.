@@ -1,0 +1,247 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    
+}
+body{
+    background:#d1cfcb;
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+#content_area
+{
+    width:800px;
+    float:right;
+    background:#d1cfcb;
+    
+}
+#products_box{
+    width:780px;
+    text-align:center;
+    margin-left:30px;
+    margin-top:10px;
+
+}
+#single_product{
+    float:left;
+    margin-left:100px;
+    padding:20px;
+    border:2px solid black;
+    margin-bottom: 50;
+    margin-top:50px
+}
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    
+}
+body{
+    background-image:url(bk.jpg);
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+.navbar{
+    width:1200px;
+    height:75px;
+    margin:auto;
+
+
+}
+.icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+.logo{
+    color:#ff7200;
+    font-size:35px;
+    font-family:Arial;
+    padding-left:20px;
+    float:left;
+    padding-top:10px;
+}
+.menu{
+    width:400px;
+    float:left;
+    height:70px;
+}
+ul{
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}
+ul li{
+    list-style-type:  none;
+    margin-left:62px;
+    margin-top:27px;
+    font-size:26px;
+}
+ul li a{
+    text-decoration:none;
+    color:#0400ff;
+    font-family:Arial;
+    font-weight:bold;
+    transition:0.4 case-in-out;
+}
+ul li a:hover{
+    color:#ff7200;
+}
+.hi{
+    position:relative;
+    color:rgb(255, 0, 157);
+    width:1200px;
+    height:auto;
+    margin:auto;
+
+}
+.hi{
+    padding-left:20px;
+    padding-bottom:25px;
+    font-family:Arial;
+    letter-spacing:1.2px;
+    line-height:30px;
+    margin-top:12%;
+}
+.form{
+    width:250px;
+    height:300px;
+    background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position:absolute;
+    top:150px;
+    left:870px;
+    border-radius:10px;
+    padding:25px;
+}
+.form h2{
+    width:220px;
+    font-family:sans-serif;
+    text-align:center;
+    color:#ff7200;
+    font-size:22px;
+    background-color:white;
+    border-radius:10px;
+    margin:2px;
+    padding:8px;
+}
+.shopping_cart_container{
+    border:0.1px solid rgba(0,0,0,1px);
+    padding:15px;
+}
+.shopping_cart_container input[type=submit]{
+    background:rgba(27,175,224,1);
+    color:white;
+    padding:5px 10px;
+    border:0.01px solid rgba(27,175,224,1);
+}
+.shopping_cart_container input[type=submit]:hover{
+    background:rgba(27,175,224,0.9);
+}
+.shopping_cart_container button {
+text-decoration:none;
+background:rgba(27,175,224,1);
+color:white;
+    padding:5px 10px;
+    border:0.01px solid rgba(27,175,224,1);
+}
+#shopping_cart{
+    background:rgba(27,224,136,1);
+}
+.login_box,.register_box{
+    width:100%;
+    float:left;
+    padding:15px;
+    background:white;
+}
+.login_box input[type=text],.login_box input[type=password],.register_box input[type=text],.register_box input[type=password]{
+    width:60%;
+    padding:3px 10px;
+    margin:5px 0;
+}
+.login_box input[type=submit],.register_box input[type=submit]{
+    padding:10px 15px;
+    background:rgba(28,130,199,0.9);
+    border:0.01px solid rgba(28,130,199,0.8);
+    color:white;
+}
+.form input{
+    width:240px;
+    height:35px;
+    background:transparent;
+    border-bottom:1 px solid #ff7200;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    color:white;
+    font-size:15px;
+    letter-spacing:1px;
+    margin-top:30px;
+    font-family:sans-serif;
+}
+.form input:focus{
+    outline:none;
+}
+::placeholder{
+    color: #ff7200;font-family:Arial;
+}
+.btn{
+    width:240px;
+    height:40px;
+    background:#ff7200;
+    border:none;
+    font-size:18px;
+    margin-top:30px;
+    border-radius:10px;
+}
+#profile img{
+    
+    position:center;
+}
+.container{
+    width:100%;
+    max-width:auto;
+    float:none;
+    padding:0;
+    margin:0 auto;
+    overflow:hidden
+}
+.header{
+    height:90px;
+    background:rgba(235,235,235,0.9);
+    border:0.01px solid rgba(235,235,235,0.9);
+}
+.navbar-header{
+    padding:15px;
+}
+.body_container{
+    width:100%;
+    clear:both;
+}
+.left_sidebar{
+    width:25%;
+    float:left;
+    background:rgba(235,235,235,0.9);
+    box-shadow:0 1px 4px 0 rgba(0,0,0,0.2),0 2px 10px 0 rgba(0,0,0,0.9);
+}
+.left_sidebar_box{
+    padding:15px;
+}
+.content{width:75%;
+    float:left;
+}
+.content_box{
+    padding:15px;
+}
+.navbar-right-header{
+    width:60%;
+    float:left;
+
+}
+
+
